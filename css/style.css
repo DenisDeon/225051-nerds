@@ -1,0 +1,30 @@
+body {
+  font-size: 15px;
+  font-family: "Roboto Medium";
+
+}
+
+h1, h3, h4, h6 {
+  font-size: 36px;
+
+}
+
+h2, .coastpay {
+  font-size: 18px;
+  text-transform: uppercase;
+
+}
+
+h5 {
+  font-size: 40px;
+}
+
+
+.list, .grid {
+  font-size: 16px;
+}
+
+.discover-3, .sort, .butn {
+  font-size: 12px;
+  text-transform: uppercase;
+}
