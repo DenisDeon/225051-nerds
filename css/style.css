@@ -1,15 +1,19 @@
 body {
   font-size: 15px;
-  font-family: "Roboto Medium";
+  font-family: "Roboto";
 
 }
 
-h1, h3, h4, h6 {
+h1,
+h3,
+h4,
+h6 {
   font-size: 36px;
 
 }
 
-h2, .coastpay {
+h2,
+.coastpay {
   font-size: 18px;
   text-transform: uppercase;
 
@@ -20,11 +24,14 @@ h5 {
 }
 
 
-.list, .grid {
+.list,
+.grid {
   font-size: 16px;
 }
 
-.discover-3, .sort, .butn {
+.discover-3,
+.sort,
+.butn {
   font-size: 12px;
   text-transform: uppercase;
 }
