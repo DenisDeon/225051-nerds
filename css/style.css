@@ -1,5 +1,5 @@
 body {
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Roboto", "Arial", "sans-serif";
 
 }
@@ -7,26 +7,31 @@ body {
 h1,
 h3,
 h4,
-h6 {
+h5 {
   font-size: 36px;
 
 }
 
-h2,
-.coastpay {
+.active,
+.titlelow {
+  font-size: 14px;
+}
+
+h6,
+.coastpay,
+.titl {
   font-size: 18px;
   text-transform: uppercase;
 
 }
 
-h5 {
+h2 {
   font-size: 40px;
 }
 
 
-.list,
-.grid {
-  font-size: 16px;
+.web-text {
+  font-size: 15px;
 }
 
 .discover-3,
