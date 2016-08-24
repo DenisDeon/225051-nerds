@@ -6,30 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Nerds</title>
+  <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+
+
   <header class="main-header main-header2">
 
-
-    <div class="container">
-
-      <div class="index-logo">
-        <a href="index.html"><img src="img/logo.png" width="135" height="60" alt="Нёрдс"></a>
-      </div>
+    <div class="container clearfix">
 
       <nav class="main-navigation">
-        <ul>
+        <div class="index-logo">
+          <a href="index.html"><img src="img/logo.png" width="135" height="60" alt="Нёрдс"></a>
+        </div>
+        <ul class="clearfix">
           <li><a class="active" href="#">Студия</a></li>
           <li><a class="active" href="#">Клиенты</a></li>
           <li><a class="active" href="#">Магазин</a></li>
           <li><a class="active" href="#">Контакты</a></li>
-        </ul>
+          <div class="basket">
+            <a class="active" href="#">Корзина</a>
 
-        <div class="basket">
-          <a class="active" href="#">Корзина</a>
-        </div>
+          </div>
+        </ul>
       </nav>
 
       <div class="head-1">
@@ -37,24 +38,17 @@
                готовых макетов</h2>
       </div>
 
-
   </header>
 
-  <main class="container">
 
+  <main class="container clearfix">
 
-
-
-
-
-
-    <section class="features ">
-
-
+    <section class="features clearfix">
 
       <form class="grid" action="#" method="get">
 
         <div class="coast">
+
           <div class="coastpay"><b>Стоимость:</b></div>
           <div class="border">
             <div class="border"></div>
@@ -63,20 +57,16 @@
           </div>
           <div class="labe">
             <span>от</span>
-
             <input class="vvod" type="text" name="name" value="">
-
             <span>до</span>
-
             <input class="vvod" type="text" name="name" value="">
-
           </div>
+
         </div>
 
         <div class="gridhigt">
 
           <b class="coastpayli">Сетка:</b>
-
           <label class="grid-10">
             <input type="radio" name="group1" checked> Адаптивная</label>
           <label class="grid-10">
@@ -87,22 +77,21 @@
         </div>
 
         <div class="gridmidl">
+
           <b class="coastpayle ">Особенности:</b>
           <label class="grid-20">
             <input type="checkbox" name="fea1" checked> Слайдер
           </label>
 
-
           <label class="grid-20">
             <input type="checkbox" name="fea2"> Блок преимуществ
           </label>
-
 
           <label class="grid-20">
             <input type="checkbox" name="fea3" checked> Новости
           </label>
 
-
+          \
           <label class="grid-20">
             <input type="checkbox" name="fea4"> Галерея
           </label>
@@ -111,72 +100,67 @@
             <input type="checkbox" name="fea5">Корзина</input>
           </label>
 
-
+          \
           <button class="btn btngrid" type="submit">Показать</button>
+
         </div>
+
       </form>
-    </section>
 
-    <div class="sort ">
-      <span>сортировать:</span>
-      <a class="sortirovka" href="#">по цене</a>
-      <a class="sortirovka" href="#">по типу</a>
-      <a class="sortirovka" href="#">по функционалу</a>
-      <a class="sortirovka" href="#"></a>
-      <a class="sortirovka" href="#"></a>
-    </div>
+      <div class="sort ">
+        <span>сортировать:</span>
+        <a class="sortirovka" href="#">по цене</a>
+        <a class="sortirovka" href="#">по типу</a>
+        <a class="sortirovka" href="#">по функционалу</a>
+        <a class="sortirovka" href="#"></a>
+        <a class="sortirovka" href="#"></a>
+      </div>
 
-
-
-
-
-
-    <article class="product ">
-      <div class="aviator">
-        <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-        <img src="img/image1.jpg" width="240" height="270">
-        <!--<div class="coast-tov">
+      <article class="product ">
+        <div class="aviator">
+          <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
+          <img src="img/image1.jpg" width="240" height="270">
+          <!--<div class="coast-tov">
           <div class="titl"><b>sunset</b></div>
           <p class="titlelow">
             Интернет магазин с личным кабинетом
           </p>
           <a href="#">1000 р</a>
       </div>-->
+        </div>
 
-      </div>
-
-      <div class="aviator">
-        <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-        <img src="img/image3.jpg" width="240" height="270">
-        <!--<div class="coast-tov">
+        <div class="aviator">
+          <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
+          <img src="img/image3.jpg" width="240" height="270">
+          <!--<div class="coast-tov">
           <b class="titl">sunset</b>
           <p class="titlelow">
             Интернет магазин с личным кабинетом
           </p>
           <a href="#">1000 р</a>
       </div>-->
-      </div>
+        </div>
 
-      <div class="aviator">
-        <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-        <img src="img/image5.jpg" width="240" height="270">
-        <!--<div class="coast-tov">
+        <div class="aviator">
+          <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
+          <img src="img/image5.jpg" width="240" height="270">
+          <!--<div class="coast-tov">
           <b class="titl">sunset</b>
           <p class="titlelow">
             Интернет магазин с личным кабинетом
           </p>
           <a href="#">1000 р</a>
       </div>-->
-      </div>
+        </div>
 
-    </article>
+      </article>
 
-    <article class="product1 ">
+      <article class="product1 ">
 
-      <div class="aviator">
-        <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-        <img src="img/image2.jpg" width="240" height="270">
-        <!-- <div class="coast-tov">
+        <div class="aviator">
+          <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
+          <img src="img/image2.jpg" width="240" height="270">
+          <!-- <div class="coast-tov">
           <b class="titl">sunset</b>
           <p class="titlelow">
             Интернет магазин с личным кабинетом
@@ -184,12 +168,13 @@
           <a href="#">1000 р</a>
       </div>  -->
 
-      </div>
-      <div class="aviator">
-        <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-        <img src="img/image4.jpg" width="240" height="270">
+        </div>
 
-        <!--<div class="coast-tov">
+        <div class="aviator">
+          <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
+          <img src="img/image4.jpg" width="240" height="270">
+
+          <!--<div class="coast-tov">
           <b class="titl">sunset</b>
           <p class="titlelow">
             Интернет магазин с личным кабинетом
@@ -197,11 +182,12 @@
           <a href="#">1000 р</a>
       </div>-->
 
-      </div>
-      <div class="aviator">
-        <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-        <img src="img/image6.jpg" width="240" height="270">
-        <!--<div class="coast-tov">
+        </div>
+
+        <div class="aviator">
+          <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
+          <img src="img/image6.jpg" width="240" height="270">
+          <!--<div class="coast-tov">
           <b class="titl">sunset</b>
           <p class="titlelow">
             Интернет магазин с личным кабинетом
@@ -209,35 +195,41 @@
           <a href="#">1000 р</a>
       </div> -->
 
+        </div>
+
+      </article>
+
+      <div class="button1">
+
+        <a class="">1</a>
+        <a class="butn" href="#">2</a>
+        <a class="butn" href="#">3</a>
+        <a class="butn1" href="#">Следующая</a>
+
       </div>
-    </article>
 
-    <div class="button1">
-      <a class="">1</a>
-      <a class="butn" href="#">2</a>
-      <a class="butn" href="#">3</a>
-      <a class="butn1" href="#">Следующая</a>
+    </section>
 
-    </div>
   </main>
 
-  <div class="clear"></div>
+
   <div class="maps">
+
     <div class="info-write">
       <b>NЁRDS DESIGN STUDIO</b>
       <p class="list">191186, Санкт-Петербург,
         <br> ул. Б. Конюшенная, д. 19/8</p>
-
       <p class="list">тел. +7 (812) 275-75-75</p>
-
       <button class="discover-3" type="submite" name="button">напишите нам</button>
     </div>
+
   </div>
 
-  <footer class="footer-end container">
 
+  <footer class="footer-end container clearfix">
 
     <div class="footer-social">
+
       <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
       <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
       <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
@@ -245,13 +237,16 @@
     </div>
 
     <div class="footer-info">
+
       <h5>Давайте дружить, это выгодно!</h5>
       <p class="list">
         Скидка 10% для друзей из социальных сетей.
       </p>
+
     </div>
 
   </footer>
+
 
 </body>
 
