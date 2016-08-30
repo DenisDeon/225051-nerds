@@ -1,30 +1,308 @@
 body {
-  font-size: 15px;
-  font-family: "Roboto Medium";
+  font-size: 16px;
+  font-family: "Roboto", "Arial", "sans-serif";
+  min-width: 1200px;
+  min-height: 2260px;
+  margin: 0;
 
 }
-
-h1, h3, h4, h6 {
+h1, h3, h4, h5 {
   font-size: 36px;
-
 }
-
-h2, .coastpay {
+.active, .titlelow {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+h6, .coastpay, .titl {
   font-size: 18px;
   text-transform: uppercase;
-
 }
-
-h5 {
+h2 {
   font-size: 40px;
 }
-
-
-.list, .grid {
-  font-size: 16px;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
+
+.web-text {
+  font-size: 15px;
+}
+.list-p {
+  color: #283136;
+}
+.list-i {
+  text-transform: uppercase;
+  color: #283136;
+}
+.list-c {
+  color: #283136;
+}
 .discover-3, .sort, .butn {
   font-size: 12px;
   text-transform: uppercase;
+}
+.container {
+  width: 880px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.container .index-logo {
+  float: left;
+  width: 140px;
+  margin-top: 25px;
+}
+.main-header {
+  min-height: 440px;
+  background-color: #eeeeee;
+  padding-top: 10px;
+}
+.main-header2 {
+  min-height: 325px;
+  background-color: #eeeeee;
+}
+
+.main-navigation li {
+  float: left;
+  list-style: none;
+  margin-top: 55px;
+  padding-left: 50px;
+}
+.main-navigation ul {
+  margin-left: 180px;
+}
+.main-navigation .basket {
+  float: right;
+  margin-top: 55px;
+}
+.main-navigation::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.two-box {
+  width: 880px;
+}
+.head {
+  float: left;
+  width: 370px;
+  margin-right: 140px;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.imgpng {
+  float: right;
+  width: 340px;
+  margin-top: 50px;
+}
+
+.middle-h {
+  float: left;
+  margin-top: 80px;
+}
+.web {
+  width: 240px;
+  float: left;
+  height: 300px;
+}
+.web2 {
+  float: left;
+  margin-left: 80px;
+}
+.middle-cntr {
+  width: 570px;
+  float: left;
+  margin-top: 160px;
+}
+.middle-cntr .list-p {
+  margin-top: -30px;
+}
+.middle-cntr .list-i {
+  margin-top: 55px;
+}
+.middle-right {
+  width: 240px;
+  float: right;
+  margin-top: 220px;
+  margin-left: 40px;
+}
+.middle-right .listik {
+  margin-top: 80px;
+}
+.middle-right .logo-mini {
+  margin-left: 30px;
+}
+.logo-name {
+  text-transform: uppercase;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.list-c li {
+  margin-top: 35px;
+  list-style: none;
+}
+.logo {
+  width: 900px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 130px;
+}
+.logo .logo-l1, .logo .logo-l2 {
+  margin-left: 120px;
+}
+.logo-l0 {
+  margin-bottom: 15px;
+}
+
+.maps {
+  margin: 0 auto;
+  width: 1200px;
+  background-image: url('../img/map.jpg');
+  height: 420px;
+  margin-top: 120px;
+}
+.info-write {
+  padding-top: 35px;
+  padding-left: 20px;
+  width: 230px;
+  height: 220px;
+  float: left;
+  margin-top: 89px;
+  margin-left: 160px;
+  background-color: white;
+}
+.discover-3 {
+  margin-top: 25px;
+  margin-left: 45px;
+}
+.footer-social {
+  width: 240px;
+  float: left;
+  margin-top: 75px;
+}
+.footer-info {
+  width: 550px;
+  float: right;
+}
+.footer-info .list {
+  margin-top: -50px;
+}
+.begin-k {
+  margin-top: -30px;
+}
+.math {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.pravka {
+  margin-top: 20px;
+}
+.web-text {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+.head-1 {
+  width: 700px;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.grid {
+  width: 240px;
+  float: left;
+
+}
+.features {
+  margin-top: 40px;
+}
+.coastpay {
+  margin-bottom: 20px;
+}
+.border {
+  height: 80px;
+  margin-bottom: 14px;
+  background-color: #f1f1f1;
+}
+.vvod {
+  width: 80px;
+  height: 38px;
+  margin-bottom: 53px;
+  background-color: #f1f1f1;
+  margin-left: 10px;
+}
+.coastpayli {
+  margin-right: 95px;
+  float: left;
+  text-transform: uppercase;
+}
+.grid-10 {
+  width: 170px;
+  float: left;
+  margin-top: 20px;
+  height:
+}
+.group1 {
+  padding-top: 25px;
+}
+.coastpayle {
+  margin-right: 95px;
+  float: left;
+  margin-top: 45px;
+  text-transform: uppercase;
+}
+.grid-20 {
+  width: 170px;
+  float: left;
+  margin-top: 20px;
+  height:
+}
+.btngrid {
+  float: left;
+  width: 155px;
+  margin-top: 55px;
+  height: 38px;
+}
+.sort {
+  width: 560px;
+  
+  float: left;
+  margin-left: 80px;
+}
+.sortirovka {
+  width: 560px;
+  padding-left: 45px;
+}
+.product {
+  float: left;
+  width: 240px;
+  margin-top: 28px;
+  margin-left: 80px;
+}
+.product1 {
+  float: left;
+  width: 240px;
+  margin-top: 28px;
+  margin-left: 80px;
+}
+.aviator {
+  margin-bottom: 80px;
+}
+.forte {
+  margin-bottom: -5px;
+}
+.button1 {
+  width: 300px;
+  float: left;
+  margin-left: 320px;
+  margin-bottom: -40px;
+}
+.butn {
+  padding-left: 45px;
+}
+.butn1 {
+  padding-left: 55px;
+  text-transform: uppercase;
+  ma
 }
