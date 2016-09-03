@@ -22,12 +22,12 @@
           <a href="index.html"><img src="img/logo.png" width="135" height="60" alt="Нёрдс"></a>
         </div>
         <ul class="clearfix">
-          <li><a class="active" href="#">Студия</a></li>
-          <li><a class="active" href="#">Клиенты</a></li>
-          <li><a class="active" href="#">Магазин</a></li>
-          <li><a class="active" href="#">Контакты</a></li>
+          <li><a class="act" href="#">Студия</a></li>
+          <li><a class="act" href="#">Клиенты</a></li>
+          <li class="active"><a class="act">Магазин</a></li>
+          <li><a class="act" href="#">Контакты</a></li>
           <div class="basket">
-            <a class="active" href="#">Корзина</a>
+            <a href="#">Корзина</a>
           </div>
         </ul>
       </nav>
@@ -49,16 +49,23 @@
         <div class="coast">
 
           <div class="coastpay"><b>Стоимость:</b></div>
-          <div class="border">
-            <div class="border"></div>
-            <div class="lap1"></div>
-            <div class="lap2"></div>
-          </div>
-          <div class="labe">
-            <span>от</span>
-            <input class="vvod" type="text" name="name" value="">
-            <span>до</span>
-            <input class="vvod" type="text" name="name" value="">
+          <div class="range-filter">
+
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle toggle-min"></div>
+              <div class="toggle toggle-max"></div>
+            </div>
+            <div class="price-controls">
+              <label class="min-price">от
+                <input name="min-price" type="text" value="0">
+              </label>
+              <label class="max-price">до
+                <input name="max-price" type="text" value="15000">
+              </label>
+            </div>
           </div>
 
         </div>
@@ -108,47 +115,51 @@
         <a class="sortirovka" href="#">по цене</a>
         <a class="sortirovka" href="#">по типу</a>
         <a class="sortirovka" href="#">по функционалу</a>
-        <a class="sortirovka" href="#"></a>
+        <a class="sortirovka triangle" href="#"></a>
         <a class="sortirovka" href="#"></a>
       </div>
 
       <article class="product ">
         <div class="aviator">
           <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-          <img src="img/image1.jpg" width="240" height="270">
+          <img src="img/image1.jpg" width="240" height="240">
 
-          <div class="coast-tov">
-            <span>sunset</span>
+          <div class="coast-tov coast-tov-trans">
+            <h1>aviator</h1>
             <p class="titlelow">
-              Интернет магазин с личным кабинетом
+              Интернет магазин
+              <br> с личным кабинетом
             </p>
-            <a class="btn-coust" href="#">1000 р</a>
+            <a class="btn-coust" href="#">10000 р</a>
           </div>
 
         </div>
 
         <div class="aviator">
           <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-          <img src="img/image3.jpg" width="240" height="270">
-          <!--<div class="coast-tov">
-          <b class="titl">sunset</b>
-          <p class="titlelow">
-            Интернет магазин с личным кабинетом
-          </p>
-          <a href="#">1000 р</a>
-      </div>-->
+          <img src="img/image3.jpg" width="240" height="240">
+
+          <div class="coast-tov1 coast-tov-trans">
+            <h1 class="titl">forte</h1>
+            <p class="titlelow">
+              Интернет магазин с личным кабинетом
+            </p>
+            <a class="btn-coust" href="#">10000 р</a>
+          </div>
+
+
         </div>
 
         <div class="aviator">
           <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-          <img src="img/image5.jpg" width="240" height="270">
-          <!--<div class="coast-tov">
-          <b class="titl">sunset</b>
-          <p class="titlelow">
-            Интернет магазин с личным кабинетом
-          </p>
-          <a href="#">1000 р</a>
-      </div>-->
+          <img src="img/image5.jpg" width="240" height="240">
+          <div class="coast-tov2 coast-tov-trans">
+            <h1 class="titl">avenue</h1>
+            <p class="titlelow">
+              Интернет магазин с личным кабинетом
+            </p>
+            <a class="btn-coust" href="#">10000 р</a>
+          </div>
         </div>
 
       </article>
@@ -157,41 +168,42 @@
 
         <div class="aviator">
           <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-          <img src="img/image2.jpg" width="240" height="270">
-          <!-- <div class="coast-tov">
-          <b class="titl">sunset</b>
-          <p class="titlelow">
-            Интернет магазин с личным кабинетом
-          </p>
-          <a href="#">1000 р</a>
-      </div>  -->
+          <img src="img/image2.jpg" width="240" height="240">
+
+          <div class="coast-tov3 coast-tov-trans">
+            <h1 class="titl">sunset</h1>
+            <p class="titlelow">
+              Интернет магазин с личным кабинетом
+            </p>
+            <a class="btn-coust" href="#">10000 р</a>
+          </div>
 
         </div>
 
         <div class="aviator">
           <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-          <img src="img/image4.jpg" width="240" height="270">
+          <img src="img/image4.jpg" width="240" height="240">
 
-          <!--<div class="coast-tov">
-          <b class="titl">sunset</b>
-          <p class="titlelow">
-            Интернет магазин с личным кабинетом
-          </p>
-          <a href="#">1000 р</a>
-      </div>-->
+          <div class="coast-tov4 coast-tov-trans">
+            <h1 class="titl">marquee</h1>
+            <p class="titlelow">
+              Интернет магазин с личным кабинетом
+            </p>
+            <a class="btn-coust" href="#">10000 р</a>
+          </div>
 
         </div>
 
         <div class="aviator">
           <img class="forte" src="img/topsilver.jpg" alt="" width="240" height="30" />
-          <img src="img/image6.jpg" width="240" height="270">
-          <!--<div class="coast-tov">
-          <b class="titl">sunset</b>
-          <p class="titlelow">
-            Интернет магазин с личным кабинетом
-          </p>
-          <a href="#">1000 р</a>
-      </div> -->
+          <img src="img/image6.jpg" width="240" height="240">
+          <div class="coast-tov5 coast-tov-trans">
+            <h1 class="titl">dovetail</h1>
+            <p class="titlelow">
+              Интернет магазин с личным кабинетом
+            </p>
+            <a class="btn-coust" href="#">10000 р</a>
+          </div>
 
         </div>
 
@@ -213,14 +225,15 @@
 
   <div class="maps">
 
-    <div class="info-write">
-      <b>NЁRDS DESIGN STUDIO</b>
-      <p class="list">191186, Санкт-Петербург,
-        <br> ул. Б. Конюшенная, д. 19/8</p>
-      <p class="list">тел. +7 (812) 275-75-75</p>
-      <button class="discover-3" type="submite" name="button">напишите нам</button>
+    <div class="container">
+      <div class="info-write ">
+        <b>NЁRDS DESIGN STUDIO</b>
+        <p class="list">191186, Санкт-Петербург,
+          <br> ул. Б. Конюшенная, д. 19/8</p>
+        <p class="list">тел. +7 (812) 275-75-75</p>
+        <button class="discover-3" type="submite" name="button">напишите нам</button>
+      </div>
     </div>
-
   </div>
 
 

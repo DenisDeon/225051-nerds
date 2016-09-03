@@ -16,6 +16,7 @@
 
   <header class="main-header">
 
+
     <div class="container clearfix">
 
       <nav class="main-navigation">
@@ -25,12 +26,12 @@
         </div>
 
         <ul class="clearfix">
-          <li><a class="active" href="#">Студия</a></li>
-          <li><a class="active" href="#">Клиенты</a></li>
-          <li><a class="active" href="#">Магазин</a></li>
-          <li><a class="active" href="#">Контакты</a></li>
+          <li><a class="act" href="#">Студия</a></li>
+          <li><a class="act" href="#">Клиенты</a></li>
+          <li><a class="act" href="file:///Users/denis/GitHub/225051-nerds/catalog.html">Магазин</a></li>
+          <li><a class="act" href="#">Контакты</a></li>
           <div class="basket">
-            <a class="active" href="#">Корзина</a>
+            <a class="act" href="#">Корзина</a>
           </div>
         </ul>
 
@@ -38,18 +39,44 @@
 
       <div class="two-box clearfix">
 
-        <div class="head">
-          <h1 class="begin-d">Долго, дорого,</h1>
-          <h1 class="begin-k">скрупулезно.</h1>
-          <p class="math">Математически выверенный дизайн
-            <br> для вашего сайта или мобильного приложения.</p>
-          <a class="discover-3 " href="#">узнать больше</a>
-        </div>
+        <div class="slider">
+          <input type="radio" id="btn-1" name="toggle" checked>
+          <input type="radio" id="btn-2" name="toggle">
+          <input type="radio" id="btn-3" name="toggle">
+          <div class="slider-controls">
+            <label for="btn-1"></label>
+            <label for="btn-2"></label>
+            <label for="btn-3"></label>
 
-        <div class="slider"></div>
-
-        <div class="imgpng">
-          <img src="img/device.jpg" alt="#" width="340" height="230" />
+          </div>
+          <div class="slides">
+            <div class="slide">
+              <div class="slide-text">
+                <div class="slide-title">Долго, дорого,
+                  <br>скрупулезно</div>
+                <p>Математически выверенный дизайн
+                  <br>для вашего сайта или мобильного приложения.</p>
+                <a class="btn" href="#">Узнать больше</a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-text">
+                <div class="slide-title">Любите ли вы математику,
+                  <br> как любим ее мы?</div>
+                <p>Нашим дизайнерам мы удаляем нейроны, ответственные
+                  <br>за креатив, чтобы дать им возможность все просчитать.</p>
+                <a class="btn" href="#">Узнать больше</a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-text">
+                <div class="slide-title">Только наркотики,
+                  <br> только хардкор!</div>
+                <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.</p>
+                <a class="btn" href="#">Узнать больше</a>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -168,13 +195,14 @@
 
 
   <div class="maps">
-
-    <div class="info-write">
-      <b>NЁRDS DESIGN STUDIO</b>
-      <p class="list">191186, Санкт-Петербург,
-        <br> ул. Б. Конюшенная, д. 19/8</p>
-      <p class="list">тел. +7 (812) 275-75-75</p>
-      <button class="discover-3" type="submite" name="button">напишите нам</button>
+    <div class="container">
+      <div class="info-write ">
+        <b>NЁRDS DESIGN STUDIO</b>
+        <p class="list">191186, Санкт-Петербург,
+          <br> ул. Б. Конюшенная, д. 19/8</p>
+        <p class="list">тел. +7 (812) 275-75-75</p>
+        <button class="discover-3" type="submite" name="button">напишите нам</button>
+      </div>
     </div>
 
   </div>
@@ -200,6 +228,24 @@
     </div>
 
   </footer>
+
+  <div class="modal-content container">
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+
+
+    <p>Ваше имя: <span>Ваш e-mail:<span></p>
+
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <input class="icon-name" type="text" name="name" placeholder="Представьтесь, пожалуйста">
+      <input class="icon-answer" type="post" name="answer" placeholder="Для отправки ответа">
+      <p class="text-alt">Текст письма:</p>
+      <textarea cols="69" rows="6" class="icon-letter" type="post" name="answer" placeholder="В свободной форме"></textarea>
+
+
+
+      <button class="btn" type="submit">Отправить</button>
+
+  </div>
 
 
 </body>
