@@ -55,7 +55,7 @@ h2 {
   margin-top: 0px;
 }
 .main-header {
-
+      min-height: 426px;
   background-color: #eeeeee;
   padding-top: 10px;
 }
@@ -124,7 +124,7 @@ a {
 }
 .middle-h {
   float: left;
-      margin-top: 106px;
+      margin-top: 85px;
 }
 .web {
   width: 240px;
@@ -189,7 +189,8 @@ margin-top: 25px;
 
   background-image: url('../img/map.jpg');
   height: 420px;
-      margin-top: 105px;
+  margin-top: 112px;
+
   background-size: cover;
 }
 .info-write {
