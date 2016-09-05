@@ -97,7 +97,8 @@ a {
   display: inline-block;
   text-transform: uppercase;
   vertical-align: top;
-  padding-left: 40px;
+  padding-left: 38px;
+  font-size: 14px;
 
 }
 .main-navigation::after {
@@ -461,7 +462,7 @@ border-bottom-style: solid;
 .butn2 {
   background-color: #f1f1f1;
     border-radius: 3px;
-    margin-left: 8px;
+    margin-left: 3px;
 }
 .butn2:hover {
   background-color: #e5e5e5;
@@ -1246,4 +1247,8 @@ transform: translateX(-50%);
 #btn-2:checked ~ .slider-controls label[for="btn-2"],
 #btn-3:checked ~ .slider-controls label[for="btn-3"] {
   background: #c1c1c1;
+}
+
+.maps-two {
+      margin-top: 106px;
 }
