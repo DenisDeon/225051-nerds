@@ -1245,7 +1245,3 @@ transform: translateX(-50%);
 #btn-3:checked ~ .slider-controls label[for="btn-3"] {
   background: #c1c1c1;
 }
-
-.social-btnh {
-  margin-left: 20px;
-}
