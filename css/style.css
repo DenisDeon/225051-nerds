@@ -1150,11 +1150,11 @@ transform: translateX(-50%);
 
 .slider-controls {
   position: absolute;
-  bottom: 95px;
+  bottom: 66px;
   left: 50%;
 
   width: 200px;
-  margin-left: -100px;
+  margin-left: -112px;
 
   text-align: center;
 }
