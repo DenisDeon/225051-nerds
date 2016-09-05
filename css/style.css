@@ -123,7 +123,7 @@ a {
 }
 .middle-h {
   float: left;
-  margin-top: 80px;
+      margin-top: 106px;
 }
 .web {
   width: 240px;
@@ -137,22 +137,22 @@ a {
 .middle-cntr {
   width: 570px;
   float: left;
-  margin-top: 120px;
+      margin-top: 90px;
 }
 .middle-cntr .list-p {
   margin-top: -30px;
 }
 .middle-cntr .list-i {
-  margin-top: 55px;
+  margin-top: 47px;
 }
 .middle-right {
   width: 240px;
   float: right;
-  margin-top: 180px;
+      margin-top: 134px;
   margin-left: 40px;
 }
 .middle-right .listik {
-  margin-top: 60px;
+      margin-top: 69px;
 }
 .middle-right .logo-mini {
   margin-left: 30px;
@@ -163,7 +163,7 @@ a {
   margin-top: 20px;
 }
 .list-c li {
-  margin-top: 35px;
+margin-top: 25px;
   list-style: none;
 }
 .list-i {
@@ -172,7 +172,7 @@ a {
 .logo {
   display: inline-block;
       vertical-align: top;
-  margin-top: 130px;
+  margin-top: 90px;
 }
 .logo .logo-l1, .logo .logo-l2 {
   margin-left: 120px;
@@ -192,7 +192,7 @@ a {
   background-size: cover;
 }
 .info-write {
-  padding-top: 35px;
+      padding-top: 26px;
   padding-left: 20px;
   width: 230px;
   height: 220px;
@@ -200,6 +200,13 @@ a {
   margin-top: 89px;
 
   background-color: white;
+}
+.info-write p {
+      margin-top: 29px;
+}
+.info-write button {
+  margin-top: 15px;
+
 }
 
 .footer-social {
