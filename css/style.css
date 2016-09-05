@@ -19,7 +19,7 @@ h6, .coastpay, .titl {
   text-transform: uppercase;
 }
 h2 {
-  font-size: 40px;
+  font-size: 38px;
   text-transform: uppercase;
 }
 .clearfix:after {
@@ -84,7 +84,7 @@ a {
   content: "";
   position: absolute;
   top: 0px;
-  left: 10px;
+  left: 18px;
   width: 18px;
   height: 18px;
 
@@ -97,7 +97,7 @@ a {
   display: inline-block;
   text-transform: uppercase;
   vertical-align: top;
-  padding-left: 38px;
+  padding-left: 44px;
   font-size: 14px;
 
 }
@@ -335,8 +335,8 @@ margin-top: 73px;
   background: url("../img/triangle-one.png");
   width: 11px;
 height: 10px;
-top: 2px;
-left: 535px;
+top: 5px;
+left: 530px;
 background-repeat: no-repeat;
 text-decoration: none;
 }
@@ -349,8 +349,8 @@ text-decoration: none;
   background: url("../img/triangle-one-up.png");
   width: 11px;
 height: 10px;
-top: 2px;
-left: 550px;
+top: 5px;
+left: 547px;
 background-repeat: no-repeat;
 text-decoration: none;
 }
