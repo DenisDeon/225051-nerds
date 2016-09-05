@@ -998,36 +998,42 @@ transform: translateX(-50%);
   margin: 25px 0 15px 0;
 }
 .modal-content span{
-  margin: 0 0 0 153px;
+  margin: 0 0 0 163px;
 
 
 }
 .modal-content input {
-  width: 193px;
+  width: 200px;
   font-size: 12px;
-  box-shadow: 0px 0px 0px 0px #f2f2f2 inset ;
+  box-shadow: 0px 0px 0px 1px #d7dcde inset ;
   border-radius: 3px;
+  border: 0;
 
-  border-color: #d7dcde;
-  padding: 10px 11px;
+  padding: 10px 8px;
   font-size: 12px;
   text-transform: uppercase;
 
 }
+.modal-content input:hover {
+  box-shadow: 0px 0px 0px 1px #a2a9ac inset ;
+}
+
 .modal-content .icon-answer {
   margin-left: 24px;
 }
 
 .icon-letter {
-  box-shadow: 0px 0px 0px 1px #f2f2f2 inset ;
+  box-shadow: 0px 0px 0px 1px #d7dcde inset ;
   border-radius: 3px;
-  border-color: #d7dcde;
+  border: 0;
   padding: 15px;
   font-size: 12px;
   text-transform: uppercase;
 }
+
 .icon-letter:hover {
-  border-color: #a2a9ac;
+  box-shadow: 0px 0px 0px 1px #a2a9ac inset ;
+
 }
 .modal-content .icon-name:hover {
   border-color: #a2a9ac;
@@ -1258,4 +1264,11 @@ transform: translateX(-50%);
 
 .maps-two {
       margin-top: 106px;
+}
+
+.modal-content-show {
+  display: block;
+}
+textarea {
+  resize: vertical;
 }
