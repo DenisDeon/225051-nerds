@@ -214,6 +214,7 @@ a {
   width: 570px;
   float: right;
   margin-top: 10px;
+  margin-bottom: 60px;
 
 }
 .footer-info .list {
@@ -264,6 +265,8 @@ a {
 .coastpayli {
   margin-right: 95px;
   float: left;
+      margin-bottom: 15px;
+      margin-top: 35px;
   text-transform: uppercase;
 }
 .grid-10 {
@@ -278,6 +281,7 @@ a {
 .coastpayle {
   margin-right: 95px;
   float: left;
+      margin-bottom: 15px;
   margin-top: 45px;
   text-transform: uppercase;
 }
@@ -312,7 +316,37 @@ a {
   width: 560px;
   float: left;
   margin-left: 80px;
+  position: relative;
 }
+.triangle {
+  position: absolute;
+  background: url("../img/triangle-one.png");
+  width: 11px;
+height: 10px;
+top: 2px;
+left: 535px;
+background-repeat: no-repeat;
+text-decoration: none;
+}
+.triangle:active {
+  background: url("../img/triangle-black.png");
+
+}
+.triangle-two {
+  position: absolute;
+  background: url("../img/triangle-one-up.png");
+  width: 11px;
+height: 10px;
+top: 2px;
+left: 550px;
+background-repeat: no-repeat;
+text-decoration: none;
+}
+.triangle-two:active {
+  background: url("../img/triangle-black-up.png");
+
+}
+
 .sort a:hover {
 
   color: #000000;
@@ -349,11 +383,32 @@ border-bottom-style: solid;
   margin-left: 80px;
 }
 .aviator {
+  position: relative;
   margin-bottom: 80px;
 }
 .forte {
+  position: relative;
   margin-bottom: -5px;
 }
+
+.forte-hov {
+
+  background: url("../img/topgrey.jpg");
+  display: block;
+  position: absolute;
+  top: -50px;
+    left: -20px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s;
+      padding-bottom: 140px;
+      background-repeat: no-repeat;
+}
+.forte-hov:hover {
+  opacity: 1;
+}
+
+
 .button1 .butn {
   padding: 14px 16px;
   color: black;
@@ -592,6 +647,8 @@ top: 24px;
   background-position: -10px -304px;
 }
 .social-btn-fb::before {
+  top: 20px;
+left: 24px;
   width: 12px;
  height: 22px;
  background-position: -10px -221px;
@@ -601,6 +658,8 @@ top: 24px;
   width: 21px;
 height: 21px;
 background-position: -10px -263px;
+top: 20px;
+left: 21px;
 
 }
 
@@ -633,14 +692,24 @@ input[type="checkbox"] + label {
   padding-left: 35px;
   position: relative;
   cursor: pointer;
+  color: #283136;
 }
+input[type="checkbox"] + label:hover {
+color: #000000;
+
+}
+input[type="checkbox"] + label:active {
+color: #a9adaf;
+
+}
+
 input[type="checkbox"] + label::before {
   content: "";
   display: block;
 background-color: #ffffff;
   position: absolute;
   top:-3px;
-  left: 0;
+  left: 1px;
   background-image: url("../img/sprite.png");
      background-repeat: no-repeat;
      width: 23px;
@@ -668,6 +737,7 @@ input[type="radio"] + label {
   padding-left: 35px;
   position: relative;
   cursor: pointer;
+  color: #283136;
 }
 input[type="radio"] + label::before {
   content: "";
@@ -675,7 +745,7 @@ input[type="radio"] + label::before {
 background-color: #ffffff;
   position: absolute;
   top:-3px;
-  left: 0;
+  left: 1px;
   background-image: url("../img/sprite.png");
      background-repeat: no-repeat;
      width: 25px;
@@ -703,10 +773,10 @@ input[type="radio"]:checked + label::after {
   background-color: white;
   display: block;
   position: absolute;
-  top: 468px;
-left: 638px;
+  top: 50px;
+    left: 20px;
   text-align: center;
-  opacity: ;
+  opacity: 0;
   transition: 0.5s;
 }
 .coast-tov:hover {
@@ -719,10 +789,10 @@ left: 638px;
   background-color: white;
   display: block;
   position: absolute;
-      top: 820px;
-  left: 638px;
+  top: 50px;
+left: 20px;
   text-align: center;
-  opacity: ;
+  opacity: 0;
   transition: 0.5s;
 }
 .coast-tov1:hover {
@@ -735,10 +805,10 @@ left: 638px;
   background-color: white;
   display: block;
   position: absolute;
-  top: 1173px;
-left: 638px;
+  top: 50px;
+  left: 20px;
   text-align: center;
-  opacity: ;
+  opacity: 0;
   transition: 0.5s;
 }
 .coast-tov2:hover {
@@ -751,10 +821,10 @@ left: 638px;
   background-color: white;
   display: block;
   position: absolute;
-    top: 468px;
-  left: 958px;
+  top: 50px;
+    left: 20px;
   text-align: center;
-  opacity: ;
+  opacity: 0;
   transition: 0.5s;
 }
 .coast-tov3:hover {
@@ -767,10 +837,10 @@ left: 638px;
   background-color: white;
   display: block;
   position: absolute;
-  top: 820px;
-  left: 958px;
+  top: 50px;
+    left: 20px;
   text-align: center;
-  opacity: ;
+  opacity: 0;
   transition: 0.5s;
 }
 .coast-tov4:hover {
@@ -783,10 +853,10 @@ left: 638px;
   background-color: white;
   display: block;
   position: absolute;
-  top: 1173px;
-  left: 958px;
+  top: 50px;
+      left: 20px;
   text-align: center;
-  opacity: ;
+  opacity: 0;
   transition: 0.5s;
 }
 .coast-tov5:hover {
@@ -850,8 +920,8 @@ left: 638px;
 .modal-content {
   position: fixed;
    top: 320px;
-       left: 630px;
-
+          left: 50%;
+transform: translateX(-50%);
      width: 475px;
 
   padding: 60px 85px 50px 90px;
@@ -907,17 +977,18 @@ left: 638px;
   margin: 25px 0 15px 0;
 }
 .modal-content span{
-  margin: 0 0 0 0px;
+  margin: 0 0 0 153px;
 
 
 }
 .modal-content input {
-  width: 200px;
-
-  box-shadow: 0px 0px 0px 2px #f2f2f2 inset ;
+  width: 193px;
+  font-size: 12px;
+  box-shadow: 0px 0px 0px 0px #f2f2f2 inset ;
   border-radius: 3px;
-  border: 0;
-  padding-left: 15px;
+
+  border-color: #d7dcde;
+  padding: 10px 11px;
   font-size: 12px;
   text-transform: uppercase;
 
@@ -927,12 +998,21 @@ left: 638px;
 }
 
 .icon-letter {
-  box-shadow: 0px 0px 0px 2px #f2f2f2 inset ;
+  box-shadow: 0px 0px 0px 1px #f2f2f2 inset ;
   border-radius: 3px;
-  border: 0;
+  border-color: #d7dcde;
   padding: 15px;
   font-size: 12px;
   text-transform: uppercase;
+}
+.icon-letter:hover {
+  border-color: #a2a9ac;
+}
+.modal-content .icon-name:hover {
+  border-color: #a2a9ac;
+}
+.modal-content .icon-answer:hover {
+  border-color: #a2a9ac;
 }
 
 .modal-content .btn {
@@ -947,6 +1027,13 @@ left: 638px;
   text-transform: uppercase;
   text-align: center;
   font-size: 12px;
+}
+.modal-content .btn:hover {
+    background-color: #d6494d;
+}
+.modal-content .btn:active {
+    background-color: #b63538;
+      box-shadow: 0px 3px 0px 0.5px #9b2d30 inset;
 }
 
 
