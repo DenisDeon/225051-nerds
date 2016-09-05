@@ -95,7 +95,7 @@ a {
   position: relative;
 
   display: inline-block;
-
+  text-transform: uppercase;
   vertical-align: top;
   padding-left: 40px;
 
