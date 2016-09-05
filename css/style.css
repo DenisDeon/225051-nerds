@@ -209,6 +209,7 @@ margin-top: 25px;
 
 }
 
+
 .footer-social {
   width: 260px;
   float: left;
@@ -269,6 +270,7 @@ margin-top: 25px;
   background-color: #f1f1f1;
   margin-left: 10px;
 }
+
 .coastpayli {
   margin-right: 95px;
   float: left;
@@ -628,7 +630,10 @@ left: -80px;
   border-radius: 50%;
   text-indent: 100%;
   overflow: hidden;
-  margin-left: 20px;
+
+}
+.social-btnh {
+  margin-left: 25px;
 }
 .social-btn:hover {
 background-color: #d6494d;
