@@ -82,7 +82,7 @@ a {
 .basket::before {
   content: "";
   position: absolute;
-  top: 35px;
+  top: 0px;
   left: 10px;
   width: 18px;
   height: 18px;
@@ -92,12 +92,12 @@ a {
 }
 .main-navigation .basket {
   position: relative;
-    padding-top: 35px;
+
   display: inline-block;
 
   vertical-align: top;
   padding-left: 40px;
-  margin-left: 53px;
+
 }
 .main-navigation::after {
   content: "";
