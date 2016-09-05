@@ -91,6 +91,7 @@ a {
   background:  url("../img/sprite.png");
   background-position: -10px -10px;
 }
+
 .main-navigation .basket {
   position: relative;
 
@@ -166,6 +167,7 @@ a {
 }
 .list-c li {
 margin-top: 25px;
+margin-left: -5px;
   list-style: none;
 }
 .list-i {
@@ -177,11 +179,14 @@ margin-top: 25px;
   margin-top: 90px;
 }
 .logo .logo-l1, .logo .logo-l2 {
-  margin-left: 120px;
+      margin-left: 117px;
 }
 .logo-l0 {
   margin-bottom: 20px;
+      margin-left: 6px;
 }
+img.logo-l2 {
+    margin-top: 5px;
 .logo-hov:hover {
 
 }
