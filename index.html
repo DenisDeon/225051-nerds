@@ -28,7 +28,7 @@
         <ul class="clearfix">
           <li><a class="act" href="#">Студия</a></li>
           <li><a class="act" href="#">Клиенты</a></li>
-          <li><a class="act" href="file:///Users/denis/GitHub/225051-nerds/catalog.html">Магазин</a></li>
+          <li><a class="act" href="catalog.html">Магазин</a></li>
           <li><a class="act" href="#">Контакты</a></li>
           <li><a class="basket" href="#">Корзина</a></li>
         </ul>
@@ -244,27 +244,8 @@
       <button class="btn" type="submit">Отправить</button>
     </form>
   </div>
-  <script scr="../225051-nerds/js/jquery.js"></script>
-  <script src="../225051-nerds/js/script.js">
-    var link = document.querySelector(".modal-content-close");
-    var popup = document.querySelector(".modal-content");
-    var close = popup.querySelector(".modal-content-close");
-    var form = popup.querySelector("form");
-    var login = popup.querySelector("[name=login]");
 
-    link.addEventListener("click", function(event) {
-      event.preventDefault();
-      popup.classList.add("modal-content-show");
-      login.focus();
-    });
-    close.addEventListener("click", function(event) {
-      event.preventDefault();
-      popup.classList.remove("modal-content-show");
-    });
-    form.addEventListener("submit", function(event) {
-      event.preventDefault();
-    });
-  </script>
+  <script src="js/script.js"></script>
 
 
 </body>
