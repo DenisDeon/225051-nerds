@@ -196,7 +196,7 @@ img.logo-l2 {
 }
 .maps {
   margin: 0 auto;
-
+  
   background-image: url('../img/map.jpg');
   min-height: 420px;
       margin-top: 123px;
@@ -722,6 +722,16 @@ input[type="radio"] {
 }
 input[type="checkbox"] {
   display: none;
+}
+input[type="checkbox"]:disabled {
+  color: #c0c2c4;
+  position: absolute;
+  top:-3px;
+  left: 1px;
+  background-image: url("../img/sprite-two.png");
+  width: 27px;
+   height: 23px;
+   background-position: -10px -53px;
 }
 input[type="checkbox"] + label {
   display: block;
