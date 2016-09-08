@@ -16,3 +16,11 @@ close.addEventListener("click", function(event) {
 form.addEventListener("submit", function(event) {
   event.preventDefault();
 });
+window.addEventListener("keydown", function(event) {
+     if (event.keyCode === 27) {
+       if (popup.classList.contains("modal-content-show")) {
+         popup.classList.remove("modal-content-show");
+          popup.classList.remove("modal-error");
+       }
+     }
+   });
