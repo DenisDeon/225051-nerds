@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Nerds</title>
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -91,7 +91,7 @@
 
       <div class="web">
 
-        <img src="img/red1.png" alt="" width="240" height="120" />
+        <img src="img/red1.jpg" alt="" width="240" height="120" />
         <h6 class="pravka">Веб-сайты</h6>
         <p class="web-text">
           Мир никогда не будет прежним после того как увидит ваш сайт!
@@ -102,7 +102,7 @@
 
       <div class="web web2">
 
-        <img src="img/green2.png" alt="" width="240" height="120" />
+        <img src="img/green2.jpg" alt="" width="240" height="120" />
         <h6 class="pravka">Приложения</h6>
         <p class="web-text">
           Покорите топ-10 приложений в AppStrore и Google Play
@@ -113,7 +113,7 @@
 
       <div class="web web2">
 
-        <img src="img/yellow3.png" alt="" width="240" height="120" />
+        <img src="img/yellow3.jpg" alt="" width="240" height="120" />
         <h6 class="pravka">Презентации</h6>
         <p class="web-text">
           Вы даже не подозреваете, насколько вы изумительны!
@@ -121,7 +121,7 @@
         <a class="discover-3 btn-yellow" href="#">Заказать</a>
 
       </div>
-      <hr class="line container">
+      <div class="line container"> </div>
     </div>
 
 
@@ -142,13 +142,13 @@
         <ul class="list-c">
 
           <li>
-            <hr class="line-red">Веб-сайтов любой сложности</li>
+            <div class="line-red"></div>Веб-сайтов любой сложности</li>
 
           <li>
-            <hr class="line-red">Мобильных приложений для iOS и Android</li>
+            <div class="line-red"></div>Мобильных приложений для iOS и Android</li>
 
           <li>
-            <hr class="line-red">Слайдшоу и видео для корпоративных презентаций</li>
+            <div class="line-red"></div>Слайдшоу и видео для корпоративных презентаций</li>
         </ul>
 
       </div>
@@ -160,8 +160,8 @@
       <div class="logo-mini">
         <img src="img/logo_middle.png" alt="" width="185" height="75" />
         <div class="logo-name">
-          <hr class="line-left"><b>Since 2004</b>
-          <hr class="line-right">
+          <div class="line-left"></div><b>Since 2004</b>
+          <div class="line-right"></div>
         </div>
       </div>
       <div class="listik">
@@ -170,22 +170,22 @@
         </p>
         <ul class="list-c">
           <li>
-            <hr class="line-red">С самоотдачей 146%</li>
+            <div class="line-red"></div>С самоотдачей 146%</li>
           <li>
-            <hr class="line-red">Соблюдая сроки на 100%</li>
+            <div class="line-red"></div>Соблюдая сроки на 100%</li>
           <li>
-            <hr class="line-red">По предоплате 50%</li>
+            <div class="line-red"></div>По предоплате 50%</li>
         </ul>
       </div>
 
     </div>
 
     <div class="logo">
-      <hr class="line-two container">
+      <div class="line-two container"> </div>
       <img class="logo-l0" src="img/glukhanko1.png" alt="" width="199" height="38">
       <img class="logo-l1" src="img/htmlacademy2.png" alt="" width="200" height="70">
       <img class="logo-l2" src="img/bordinski3.png" alt="" width="210" height="87">
-      <hr class="line-tree container">
+      <div class="line-tree container"> </div>
     </div>
 
 
@@ -230,16 +230,18 @@
   <div class="modal-content container">
     <button class="modal-content-close" type="button" name="login" title="Закрыть">Закрыть</button>
 
-
-    <p>Ваше имя: <span>Ваш e-mail:</span></p>
-
+    <div class="label-one">
+      <label for="lab1">Ваше имя:</label>
+      <label for="lab2" class="label-two">Ваш e-mail:</label>
+    </div>
     <form class="login-form" action="#" method="post">
-      <input class="icon-name" type="text" name="name" placeholder="Представьтесь, пожалуйста">
-      <input class="icon-answer" type="text" name="answer" placeholder="Для отправки ответа">
-      <p class="text-alt">Текст письма:</p>
-      <textarea cols="69" rows="6" class="icon-letter" name="answer" placeholder="В свободной форме"></textarea>
+      <input class="icon-name" type="text" name="name" id="lab1" placeholder="Представьтесь, пожалуйста">
+      <input class="icon-answer" type="text" name="answer" id="lab2" placeholder="Для отправки ответа">
+      <div class="text-alt">
+        <label for="lab3">Текст письма:</label>
+      </div>
 
-
+      <textarea cols="69" rows="6" class="icon-letter" name="answer" id="lab3" placeholder="В свободной форме"></textarea>
 
       <button class="btn" type="submit">Отправить</button>
     </form>

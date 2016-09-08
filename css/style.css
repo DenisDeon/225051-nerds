@@ -1,9 +1,12 @@
 body {
   font-size: 16px;
-  font-family: "Roboto Medium", "Arial", "sans-serif";
+  font-family: "Roboto", "Arial", sans-serif;
+
   min-width: 1200px;
   min-height: 2260px;
   margin: 0;
+  font-weight: 500;
+  color: #283136;
 
 
 }
@@ -55,7 +58,7 @@ h2 {
   margin-top: 0px;
 }
 .main-header {
-      min-height: 426px;
+
   background-color: #eeeeee;
   padding-top: 10px;
 }
@@ -131,7 +134,7 @@ a {
 .web {
   width: 240px;
   float: left;
-  height: 300px;
+  min-height: 300px;
 }
 .web2 {
   float: left;
@@ -195,7 +198,7 @@ img.logo-l2 {
   margin: 0 auto;
 
   background-image: url('../img/map.jpg');
-  height: 420px;
+  min-height: 420px;
       margin-top: 123px;
 
   background-size: cover;
@@ -204,7 +207,7 @@ img.logo-l2 {
       padding-top: 26px;
   padding-left: 20px;
   width: 226px;
-    height: 211px;
+    min-height: 211px;
   float: left;
   margin-top: 89px;
 
@@ -268,13 +271,13 @@ margin-top: 73px;
   margin-bottom: 20px;
 }
 .border {
-  height: 80px;
+  min-height: 80px;
   margin-bottom: 14px;
   background-color: #f1f1f1;
 }
 .vvod {
   width: 80px;
-  height: 38px;
+  min-height: 38px;
   margin-bottom: 53px;
   background-color: #f1f1f1;
   margin-left: 10px;
@@ -291,7 +294,7 @@ margin-top: 73px;
   width: 170px;
   float: left;
   margin-top: 20px;
-  height:
+
 }
 .group1 {
   padding-top: 25px;
@@ -307,7 +310,7 @@ margin-top: 73px;
   width: 170px;
   float: left;
   margin-top: 20px;
-  height:
+
 }
 .btn-grid {
   float: left;
@@ -569,16 +572,24 @@ border-bottom-style: solid;
   position: relative;
   top: 80px;
   border: none;
-  background-color: #eeeeee;
-  height: 2px;
 
+  min-height: 2px;
+
+  border-bottom: 2px solid #eeeeee;
+  margin-top: 283px;
+  clear: left;
+  width: 865px;
 }
 .line-two  {
   position: relative;
   top:-40px;
   border: none;
-  background-color: #eeeeee;
-  height: 2px;
+  width: 860px;
+    min-height: 2px;
+  border-bottom: 2px solid #eeeeee;
+
+  clear: left;
+  width: 865px;
 
 }
 .line-tree  {
@@ -586,8 +597,12 @@ border-bottom-style: solid;
   position: relative;
   top:35px;
   border: none;
-  background-color: #eeeeee;
-  height: 2px;
+  width: 860px;
+    min-height: 2px;
+  border-bottom: 2px solid #eeeeee;
+
+  clear: left;
+  width: 865px;
 
 }
 
@@ -597,8 +612,8 @@ border-bottom-style: solid;
   left: -40px;
   width: 25px;
   border: none;
-  background-color: #fb565a;
-  height: 2px;
+  border-bottom: 2px solid #fb565a;
+  min-height: 2px;
   margin: 0;
 }
 
@@ -606,20 +621,20 @@ border-bottom-style: solid;
   position: relative;
 top: 10px;
 left: -80px;
-  width: 70px;
+  width: 65px;
   border: none;
-  background-color: #eeeeee;
-  height: 2px;
+      border-bottom: 2px solid #eeeeee;
+  min-height: 2px;
   margin: 0;
 }
 .line-right {
   position: relative;
-  top: -10px;
+  top: -12px;
   left: 100px;
-  width: 70px;
+  width: 65px;
   border: none;
-  background-color: #eeeeee;
-  height: 2px;
+      border-bottom: 2px solid #eeeeee;
+  min-height: 2px;
   margin: 0;
 }
 
@@ -630,6 +645,8 @@ left: -80px;
 
 
 .social-btn {
+  display: inline-block;
+    vertical-align: top;
   position: relative;
 
   width: 62px;
@@ -790,7 +807,7 @@ input[type="radio"]:checked + label::after {
 
 .coast-tov {
   width: 200px;
-  height: 200px;
+  min-height: 200px;
   background-color: white;
   display: block;
   position: absolute;
@@ -806,7 +823,7 @@ input[type="radio"]:checked + label::after {
 
 .coast-tov1 {
   width: 200px;
-  height: 200px;
+  min-height: 200px;
   background-color: white;
   display: block;
   position: absolute;
@@ -822,7 +839,7 @@ left: 20px;
 
 .coast-tov2 {
   width: 200px;
-  height: 200px;
+  min-height: 200px;
   background-color: white;
   display: block;
   position: absolute;
@@ -838,7 +855,7 @@ left: 20px;
 
 .coast-tov3 {
   width: 200px;
-  height: 200px;
+  min-height: 200px;
   background-color: white;
   display: block;
   position: absolute;
@@ -854,7 +871,7 @@ left: 20px;
 
 .coast-tov4 {
   width: 200px;
-  height: 200px;
+  min-height: 200px;
   background-color: white;
   display: block;
   position: absolute;
@@ -870,7 +887,7 @@ left: 20px;
 
 .coast-tov5 {
   width: 200px;
-  height: 200px;
+  min-height: 200px;
   background-color: white;
   display: block;
   position: absolute;
@@ -990,19 +1007,18 @@ transform: translateX(-50%);
 .modal-content-close::after {
   transform: rotate(-45deg);
 }
-
-.modal-content p {
-  display: block;
-
+.label-one {
+  margin: 0 0 12px 0;
 }
+.label-two {
+  margin-left: 160px;
+}
+
 .text-alt {
   margin: 25px 0 15px 0;
 }
-.modal-content span{
-  margin: 0 0 0 163px;
 
 
-}
 .modal-content input {
   width: 200px;
   font-size: 12px;
@@ -1072,7 +1088,7 @@ transform: translateX(-50%);
 
 .range-controls {
   position: relative;
-  height: 41px;
+  min-height: 41px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
@@ -1118,6 +1134,7 @@ transform: translateX(-50%);
 .price-controls label {
   font-size: 16px;
   display: inline-block;
+  vertical-align: top;
   width: 50%;
   margin-top: -5px;
 }

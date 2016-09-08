@@ -1,4 +1,4 @@
-var link = document.querySelector(".discover-3");
+var link = document.querySelector(".info-write .discover-3");
 var popup = document.querySelector(".modal-content");
 var close = popup.querySelector(".modal-content-close");
 var form = popup.querySelector("form");
