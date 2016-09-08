@@ -196,7 +196,7 @@ img.logo-l2 {
 }
 .maps {
   margin: 0 auto;
-  
+  background-color: #e9e5dc;
   background-image: url('../img/map.jpg');
   min-height: 420px;
       margin-top: 123px;
