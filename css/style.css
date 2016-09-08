@@ -968,7 +968,7 @@ left: 20px;
 .modal-content {
   display: none;
   position: fixed;
-   top: 320px;
+   top: 140px;
           left: 50%;
 transform: translateX(-50%);
      width: 475px;
